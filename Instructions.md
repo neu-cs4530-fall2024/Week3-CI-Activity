@@ -130,7 +130,7 @@ git push origin main
 - Your task is to create a file `.github/workflows/ci.yml` that will contain your workflow. 
 
 - This workflow must satisfy the following requirements:
-  - Runs on every commit to the main branch
+  - Runs on every push to the main branch
   - Runs on every pull request to the main branch
   - Runs when manually started by the user
   - Installs required OS package dependencies and npm dependencies
